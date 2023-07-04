@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+header {
+    display: flex;
+    background: hsl(0, 6%, 93%);
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0.3px solid rgb(197, 192, 192);
+}
+
+
+.text {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+.Uname {
+    margin-top: 15px;
+}
+
+.container-fluid {
+    margin-top: 15px;
+    border: solid 0.3px rgb(197, 192, 192);
+    color: black;
+
+}
+
+.d-block {
+
+    margin: 0 auto;
+
+}
+
+
+li {
+    background: green;
+}
+
+carousel-indicators {
+    color: black;
+}
+
+.btnPerexod3,
+.btnPerexod22 {
+    display: none;
+}

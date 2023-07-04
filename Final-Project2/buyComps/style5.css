@@ -1,0 +1,4 @@
+.tab-content>.active{
+    display: flex;
+    gap: 20px;
+}

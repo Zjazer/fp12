@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style4.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <hr>
+    <div class="website">
+
+        <div class="container">
+
+            <header>
+                <a type="button" href="../mainBoard/index.html" class="btnPerexod btn btn-primary">Main Page</a>
+                <button type="button" class=" btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Add Computer
+                </button>
+
+            </header>
+            <main>
+
+                <div class="items">
+
+                    <div class="c-item1">
+                        <label" for="5">Choose:</label>
+                        <select name="5" id="">
+                            <option>5</option>
+                        </select>
+
+                        <label  for="5">Entires:</label>
+                    </div>
+                    <div class="c-item2">
+                        <label  for="Search:">Search:</label>
+                        <input  id="search" type="search" class="i1">
+                    </div>
+                </div>
+
+
+                <div id="myModal" class="m">
+                    <div class="m-content">
+                        <table class="table  table-bordered">
+                            <thead>
+                                <tr>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Name</th>
+                                    <th>Photo</th>
+                                    <th>Price</th>
+                                    <th>attributes</th>
+                                </tr>changeCom
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                            </tbody>
+                        </table>
+
+
+
+
+
+                        <div class="m-footer">
+
+                        </div>
+                    </div>
+                </div>
+                <div id="img-modal" class="m">
+                    <div class="m-content">
+                        <div class="m-header"></div>
+                        <div class="m-body"></div>
+                        <img id="big-modal-img" src="">
+                    </div>
+                    <div class="m-footer"></div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <!-- Button trigger modal -->
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body d-flex gap-5">
+
+
+                    <form>
+
+
+                        <label class="form-label" for="computer-name">Category:</label>
+                        <input class="form-control" type="text" id="computer-category">
+
+                        <label  class="form-label" for="computer-name">Name:</label>
+                        <input class="form-control" type="text" id="computer-name">
+
+                        <label class="form-label" for="price">Price:</label>
+                        <input class="form-control" type="text" id="price">
+
+                        <label class="form-label" for="description">description</label>
+                        <input class="form-control" type="text" id="description">
+
+                        <label class="form-label" for="new-or-not">New:</label>
+                        <select class="form-select" id="new-or-not">
+                            <option value="Yes">Yes</option>
+                            <option value="No">No</option>
+                        </select>
+
+                        <label class="form-label" class="form-label" for="photo">Photo:</label>
+                        <input type="text" class="form-control >" id="photo"
+
+                        <img id="modal-img" src="" alt="Its not that type of photo">
+                    </form>
+                    <form>
+                        <label  class="form-label" for="ram">Installed Ram(GB)</label>
+                        <input type="text" class="for control"  id="ram"                      
+
+                        <label class="form-label" for="processor">CPU:</label>
+                        <input type="text" class="form-control  >" id="processor"
+
+                        <label class="form-label" for="rom">Instslled Memory(GB)</label>
+                        <input type="text" class="form-control >" id="rom" 
+
+                        <label class="form-label" for="memory-type">Memory Type:</label>
+                        <select id="memory-type">
+                            <option value="ssd">SSD</option>
+                            <option value="hdd">HDD</option>
+
+                            
+                        </select>
+                        <label class="form-label" class="form-label" for="os">Installed OS</label>
+                            <input  type="text" class="form-control  >"id="os"
+
+                            <label class="form-label" for="gpu">GPU(GB):</label>
+                            <input  type="text" class="form-control >"  id = "gpu"
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button id="save" type="button" data-bs-dismiss="modal" class="btn btn-primary">Save
+                        changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./main4.js"></script>
+</body>
+
+</html>

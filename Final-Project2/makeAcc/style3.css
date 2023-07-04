@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.line {
+
+    margin-top: 15px;
+  
+    height: 2px;
+    background: rgb(197, 192, 192);
+
+}
+
+
+
+
+.text {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+
+
+main {
+    margin: 0 auto;
+    max-width: 400px;
+    width: 80%;
+}
+
+.alert{
+    display: none;
+}
